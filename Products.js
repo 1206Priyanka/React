@@ -1,13 +1,18 @@
 import React from 'react';
+import Product from './Product';
 
-function Product(props){
+function Products(){
 
-    return(
+return (
 
-        <div>
+    <div>
 
-            <ul>Product:id = {props.id}, name = {props.name}</ul>
+        <Product id = "P1" name = "car"/>
+        <Product id = "P2" name = "compiter"/>
 
-        </div>
-    )
+    </div>
+
+);
 }
+
+export default Products;
