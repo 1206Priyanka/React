@@ -1,0 +1,23 @@
+import React from 'react';
+import ReactDom from 'react-dom';
+
+class UniversityCourseStudent extends React.Component{
+    render(){
+        return(
+          <div>
+           <h2> Hello {this.props.name}</h2>
+           <p>You are studying {this.props.courseName}</p>
+           </div>
+        );
+    } 
+}
+
+
+
+
+ReactDom.render(<UniversityCourseStudent 
+  name = "Pri"
+  studentId ="012345"
+  courseName = "CompSci"
+  courseStartDate ="05/10/20"
+/>, document.getElementById('root'));
