@@ -1,0 +1,14 @@
+import React from 'react';
+import Item from './Item';
+
+function App(){
+
+  return(
+    <div>
+    <Item itemId="bottle1" itemName ="bottle"/>
+    </div>
+  ); 
+  
+}
+
+export default App;
